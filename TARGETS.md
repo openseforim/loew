@@ -89,6 +89,18 @@ Public domain everywhere. Checked by a web search on 01-Nov-2026 (details below 
 | Jacob Levy, *Neuhebräisches und chaldäisches Wörterbuch über die Talmudim und Midraschim*, 1876–89 | Lexicon; complements the Jastrow/BDB work in Bekiut | not checked; very large | Not checked |
 | Immanuel Löw, *Fauna und Mineralien der Juden*, ed. A. Scheiber, 1969 | Completes the Flora | Löw's text is public domain in the EU (he died 1944), but Scheiber's edition (1969) is not, in the US or the EU | Not checked |
 
+## Hebrew works (added 21-Nov-2026)
+
+Suggested in the review of the [Emden *Megillat Sefer* reader](https://ezrabrand.github.io/emden-megillat-sefer/);
+same pipeline as that project (Hebrew scan → Kraken OCR → page check → English draft). All "not checked": from my own
+knowledge, to verify before work starts.
+
+| Work | Why | Editions and existing translation | Status of check |
+|---|---|---|---|
+| Ḥida (Ḥayyim Yosef David Azulai, 1724–1806), *Ma'agal Tov* | His travel diary as an emissary of Hebron (journeys of the 1750s and 1770s): Italy, Germany, Holland, France, England, North Africa. A first-person 18th-c. Hebrew text like *Megillat Sefer*, and some of the same communities | Livorno 1879 (partial); full edition by A. Freimann, Jerusalem (Mekize Nirdamim), 1921–34, which may still be in copyright in the EU. An English translation by B. Cymerman (1997) probably exists: check how complete and how good it is before starting | Not checked |
+| Ḥida, *Shem ha-Gedolim* | His bio-bibliographical dictionary of rabbis (Ma'arekhet Gedolim) and of books (Ma'arekhet Sefarim). Kahana cites it in his notes to *Megillat Sefer*; a structured English version could link to the Emden and Hyman projects | Livorno 1774–96 (two parts); later editions with added notes (e.g. Vilna 1853). No English translation known to me | Not checked |
+| Isaac Hirsch Weiss, *Dor Dor ve-Dorshav*, 5 vols., Vienna 1871–91 | The classic 19th-c. history of the Oral Law from the Bible to the early modern period. A companion to the Hyman *Toldot Tannaim ve-Amoraim* work | Public domain (Weiss d. 1905). No English translation known to me; check for a Sefaria or Wikisource text before running OCR | Not checked |
+
 ## Notes
 
 - **Existing projects to check before starting any of these:** Sefaria (texts and dictionaries),
