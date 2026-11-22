@@ -6,7 +6,7 @@ against hand-corrected pages, and translate them into English.
 
 ## Read the results
 
-**Reading edition (web):** https://ezrabrand.github.io/low-flora/ — German and English side by
+**Reading edition (web):** https://openseforim.org/loew/ — German and English side by
 side, scans linked from each page mark, abbreviations and transliterations as tooltips (with
 switches to show them inline), numbered footnotes, and a searchable abbreviation table. Built by
 `build_site.py` into `docs/` (GitHub Pages serves `main:/docs`); run `uv run build_site.py` after new
