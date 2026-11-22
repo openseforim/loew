@@ -10,7 +10,11 @@
   "summary": "German text and English translation of sample pages and the contents lists of Löw's study of the plants of Jewish sources.",
   "base_edition": {
     "label": "Vienna and Leipzig 1924–34 (scans: Frankfurt University Library, Freimann collection)",
-    "scan_url": "https://sammlungen.ub.uni-frankfurt.de/freimann/"
+    "scan_url": "https://sammlungen.ub.uni-frankfurt.de/freimann/",
+    "scan_rights": {
+      "name": "Public Domain Mark 1.0",
+      "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
   },
   "method": "OCR with a second model as checker, disagreements checked on the scan; English translation with AI models.",
   "cite": "Immanuel Löw, Die Flora der Juden, German text with English translation, ed. Ezra Brand. Open Seforim",

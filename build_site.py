@@ -226,7 +226,7 @@ def header(active: str) -> str:
     links = [("index.html", "Entries"), ("abbreviations.html", "Abbreviations"), (REPO, "Code and data")]
     nav = " ".join(f'<a href="{h}"{" aria-current=page" if h == active else ""}>{t}</a>' for h, t in links)
     return (f'<header class="site"><a class="brand" href="index.html">Löw, <i>Flora der Juden</i> '
-            f'<span>· reading edition (test)</span></a><nav>{nav}</nav></header>')
+            f'<span>· reading edition</span></a><nav>{nav}</nav></header>')
 
 
 CN_TOGGLE = '<label><input type="checkbox" data-toggle="show-cn" checked> Common names</label>'
@@ -301,9 +301,7 @@ Numbers link to the footnotes below. Machine output: check the scan before you c
 <div class="cols-head row"><div class="cell de">German (Löw)</div><div class="cell en">English</div></div>
 {"".join(rows)}
 {notes_html}
-</main>
-<footer>Source: <a href="https://nbn-resolving.org/urn:nbn:de:hebis:30-180014581006">Frankfurt UB, Freimann
-collection</a>, Public Domain Mark 1.0 · Transcription and translation: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; code: <a href="{REPO}/blob/main/LICENSE">MIT</a> · <a href="{REPO}">{REPO.split("//")[1]}</a></footer>"""
+</main>"""
     return page_html(f"{doc['title']} · Löw, Flora der Juden", body, doc["sub"])
 
 
@@ -328,8 +326,7 @@ was checked by hand; its Syriac words are not yet verified.</li>
 <li>Each page links to the scan: please check it before citing anything.</li>
 <li>Code, data, method and costs: <a href="{REPO}">{REPO.split("//")[1]}</a>.</li>
 </ul>
-</main>
-<footer>Scans: Frankfurt UB, Freimann collection, Public Domain Mark 1.0. Transcription and translation: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; code: <a href="{REPO}/blob/main/LICENSE">MIT</a>.</footer>"""
+</main>"""
     return page_html("Löw, Flora der Juden · reading edition", body,
                      "Machine transcription and English translation of pages of Immanuel Löw, Die Flora der Juden")
 
