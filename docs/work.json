@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "slug": "loew",
+  "order": 70,
+  "kind": "translation",
+  "title": "Immanuel Löw, Die Flora der Juden",
+  "short_title": "Flora der Juden",
+  "author": "Immanuel Löw (1854–1944)",
+  "status_label": "Sample pages",
+  "summary": "German text and English translation of sample pages and the contents lists of Löw's study of the plants of Jewish sources.",
+  "base_edition": {
+    "label": "Vienna and Leipzig 1924–34 (scans: Frankfurt University Library, Freimann collection)",
+    "scan_url": "https://sammlungen.ub.uni-frankfurt.de/freimann/"
+  },
+  "method": "OCR with a second model as checker, disagreements checked on the scan; English translation with AI models.",
+  "cite": "Immanuel Löw, Die Flora der Juden, German text with English translation, ed. Ezra Brand. Open Seforim",
+  "url": "https://openseforim.org/loew/",
+  "repo": "https://github.com/openseforim/loew",
+  "licence": {
+    "name": "MIT License (transcription, translation and code)",
+    "url": "https://github.com/openseforim/loew/blob/main/LICENSE"
+  }
+}
