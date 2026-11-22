@@ -446,3 +446,19 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# --- Open Seforim post-build: canonical and social tags, descriptions, lang, CSS/JS version stamps.
+# The tool lives in the org site clone (openseforim-site/tools/postbuild.py); skipped if that clone is missing.
+def _os_postbuild():
+    import subprocess
+    from pathlib import Path as _P
+    claude = _P(__file__).resolve().parents[1]
+    tool = claude / "openseforim-site" / "tools" / "postbuild.py"
+    if tool.exists():
+        subprocess.run([sys.executable, str(tool), "loew", str(claude / "low-flora/docs")], check=False)
+
+
+if __name__ == "__main__":
+    import sys
+    _os_postbuild()
