@@ -387,9 +387,10 @@ Brainstorm, not a plan. Rough order: cheap and useful first.
 
 ## License
 
-The code and everything added in this repository (transcriptions, gold pages, translations,
-the abbreviation table, the reading edition, and the documentation) are under the
-[MIT License](LICENSE), © 2026 Ezra Brand.
+Everything added in this repository apart from the code (transcriptions, gold pages,
+translations, the abbreviation table, the reading edition and the documentation) is under
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (see `LICENSE-TEXT`); the code is under the [MIT License](LICENSE).
+© 2026 Ezra Brand.
 
 Löw's *Die Flora der Juden* itself is in the public domain; the scans are by the Frankfurt
 University Library (Freimann collection), Public Domain Mark 1.0, and are not stored here.
