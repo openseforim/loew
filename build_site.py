@@ -295,7 +295,7 @@ not). Right: an English translation by Claude Opus 5.5 (rules {d["rules"]}; v3 w
 not transliterated; Syriac, Arabic and Greek words show a transliteration when you point at them
 (Syriac in Hebrew letters). Dotted words are abbreviations: point at them for the expansion
 (from Löw's own list where possible; “?” = not known). “p. 194” links to the scan of that page.
-Numbers link to the footnotes below. Machine output: check the scan before you cite.</p></details>
+Numbers link to the footnotes below.</p></details>
 {TOGGLES.format(cn=CN_TOGGLE if names else "")}
 <div class="scans" aria-label="Scans">{thumbs}</div>
 <div class="cols-head row"><div class="cell de">German (Löw)</div><div class="cell en">English</div></div>
@@ -314,12 +314,12 @@ def index_html() -> str:
 <h1>Immanuel Löw, <i>Die Flora der Juden</i></h1>
 <p class="lede">Vienna and Leipzig, 1924–34, four volumes in five: the standard reference on plants in
 Jewish literature, in German, with Hebrew, Aramaic, Syriac, Arabic and Greek on every page.
-This is a test reading edition: machine transcription and English translation of a few
-pages, made to see what current tools can do.</p>
+This reading edition gives the German text and an English translation of a few
+pages.</p>
 <ul class="docs">{items}</ul>
 <h2>What this is, and what it is not</h2>
 <ul class="plain">
-<li>The transcription and the translation are machine output (Claude Opus 5.5). One page (Bd. I p. 194)
+<li>The transcription and the translation are made with Claude Opus 5.5. One page (Bd. I p. 194)
 was checked by hand; its Syriac words are not yet verified.</li>
 <li>Abbreviations are expanded from Löw's own list in Bd. IV pp. 731–740 where possible
 (<a href="abbreviations.html">table</a>).</li>
@@ -328,7 +328,7 @@ was checked by hand; its Syriac words are not yet verified.</li>
 </ul>
 </main>"""
     return page_html("Löw, Flora der Juden · reading edition", body,
-                     "Machine transcription and English translation of pages of Immanuel Löw, Die Flora der Juden")
+                     "German text and English translation of pages of Immanuel Löw, Die Flora der Juden")
 
 
 def abbreviations_html() -> str:
