@@ -1,5 +1,7 @@
 # low-flora
 
+Cite as: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24458145.svg)](https://doi.org/10.5281/zenodo.24458145) (Zenodo; this DOI always points to the newest release)
+
 Test pipeline for OCR of Immanuel Löw, *Die Flora der Juden* (Vienna/Leipzig 1924–34).
 Proof of concept on 9 pages: fetch page images, OCR them with several engines, score them
 against hand-corrected pages, and translate them into English.
