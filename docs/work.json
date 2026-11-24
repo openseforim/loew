@@ -7,6 +7,8 @@
   "short_title": "*Flora der Juden*",
   "author": "Immanuel Löw (1854–1944)",
   "status_label": "Sample · selected pages",
+  "start": "pistacia.html",
+  "start_label": "Pistacia",
   "summary": "German text and English translation of sample pages and the contents lists of Löw's study of the plants of Jewish sources.",
   "base_edition": {
     "label": "Vienna and Leipzig 1924–34 (scans: Frankfurt University Library, Freimann collection)",
